@@ -17,7 +17,7 @@ public class ReadFileIO {
             int lineNumber = 1;
             // Citește fișierul linie cu linie până la final (readLine() returnează null)
             while ((line = reader.readLine()) != null) {
-                System.out.println(lineNumber + ": " + line);
+                System.out.println(lineNumber + "--> " + line);
                 lineNumber++;
             }
         } catch (IOException e) {
